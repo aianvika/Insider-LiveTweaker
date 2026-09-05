@@ -73,14 +73,10 @@ The **Timebomb Defuser** requires you to manually supply a Retail policy file:
 **Q: What is the Insider "timebomb"?**
 Every Insider Preview build ships with a built-in expiration date (typically ~10–12 months after release). As expiration approaches you get watermark nagging; after expiration, Windows enters a degraded state with forced periodic restarts. The intended fix is moving to a newer build — LiveTweaker instead removes the expiration term from the licensing policy.
 
-**Q: My Insider build has already expired — can this tool recover it?**
-[⚠️ VERIFY against your implementation: if defusal works on an already-expired installation, say "Yes — apply the Timebomb Defuser and reboot"; if it must be applied before expiry, state that honestly and suggest reinstalling a current build first.]
 
 **Q: Does Insider-LiveTweaker activate Windows?**
 **No.** This is not an activation tool and it does not provide free Windows licenses. A legitimate product key or digital license is still required to activate the OS. LiveTweaker only modifies evaluation-expiration terms and cosmetic watermarks on builds you're entitled to run as an Insider.
 
-**Q: Is the watermark removal permanent?**
-[⚠️ VERIFY: if in-memory only — "The patch lives in memory, so a reboot restores Windows' default behavior — re-applying takes seconds. Nothing on disk is ever modified." If persistent, describe that honestly.]
 
 **Q: Does it modify system files on disk?**
 The watermark patch is applied entirely in memory — on-disk binaries are never modified, and structural offsets are preserved. The Timebomb Defuser updates the licensing policy as described in *How It Works*.
